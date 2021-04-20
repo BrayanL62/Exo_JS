@@ -2,7 +2,7 @@
 // (Bonus) Créer une propriété mana pour le magicien.  Chaque sort utilise 10 points de mana.
 // Si il n'y a plus assez de mana, spell() affiche "Pas assez de mana!"
 
-import {Player} from './app.js';
+import {Player} from './player.js';
 
 export class Magician extends Player {
     mana = 100;
